@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "author": "Kauan Altino",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": -76.8, "left": -206.36, "attrs": {} },
+    { "type": "wokwi-potentiometer", "id": "pot1", "top": -193.3, "left": -259.4, "attrs": {} },
+    {
+      "type": "wokwi-slide-potentiometer",
+      "id": "pot2",
+      "top": -4.4,
+      "left": -399.2,
+      "rotate": 270,
+      "attrs": { "travelLength": "30" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "pot2:GND", "esp:GND.2", "black", [ "v-53.2", "h211.2", "v48" ] ],
+    [ "pot2:SIG", "esp:32", "green", [ "h47.2", "v-153.6" ] ],
+    [ "pot1:GND", "esp:GND.1", "black", [ "v0" ] ],
+    [ "pot1:SIG", "esp:33", "orange", [ "v0" ] ],
+    [ "pot1:VCC", "esp:3V3", "red", [ "v0" ] ],
+    [ "pot2:VCC", "esp:5V", "red", [ "v9.6", "h86.4", "v-48" ] ]
+  ],
+  "dependencies": {}
+}

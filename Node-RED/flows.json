@@ -1,0 +1,65 @@
+[
+    {
+        "id": "9e1666867a437f08",
+        "type": "ui_chart",
+        "z": "314af24120520606",
+        "name": "",
+        "group": "23afc1262e903169",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "GRAFICO CORRENTE",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "1",
+        "ymax": "10",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 630,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "23afc1262e903169",
+        "type": "ui_group",
+        "name": "ENERGIA GROUP",
+        "tab": "c0cefdea18c773b5",
+        "order": 1,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c0cefdea18c773b5",
+        "type": "ui_tab",
+        "name": "MONITORAMENTO ENERGIA",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
