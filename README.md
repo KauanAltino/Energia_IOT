@@ -27,3 +27,7 @@ Tecnologias Utilizadas:
 - Gateway: Node-RED para processamento, análise e controle de fluxo de mensagens.
 - Dashboard: Ferramentas de visualização Node-RED.
 - Simulação: Simulador Wokwi para desenvolvimento e teste.
+
+Funcionamento do programa em vídeo:
+
+- https://www.youtube.com/watch?v=zEeLWaHR12Y
